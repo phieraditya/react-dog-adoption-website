@@ -5,7 +5,7 @@ export default class DogList extends Component {
   render() {
     return (
       <div className="DogList">
-        <h1 className="display-1 text-center">Dog List</h1>
+        <h1 className="display-1 text-center mb-4">Adopt Us!</h1>
         <div className="container">
           <div className="row">
             {this.props.dogs.map((d) => (
