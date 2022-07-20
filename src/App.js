@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { Routes, Route } from 'react-router-dom';
 import whiskey from './images/whiskey.jpg';
 import hazel from './images/hazel.jpg';
 import tubby from './images/tubby.jpg';
 import Navbar from './Navbar';
-import DogList from './DogList';
-import DogDetails from './DogDetails';
+import PageRoutes from './PageRoutes';
 import './App.css';
 
 class App extends Component {
@@ -47,13 +45,7 @@ class App extends Component {
     return (
       <div>
         <Navbar dogs={this.props.dogs} />
-        <Routes>
-          <Route path="/dogs" element={<DogList dogs={this.props.dogs} />} />
-          <Route
-            path="/dogs/:name"
-            element={<DogDetails dogs={this.props.dogs} />}
-          />
-        </Routes>
+        <PageRoutes dogs={this.props.dogs} />
       </div>
     );
   }
