@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-dog-adoption-website/static/css/main.aa3accbe.css",
+    "main.js": "/react-dog-adoption-website/static/js/main.6ff1e20d.js",
+    "static/js/787.fe60e91e.chunk.js": "/react-dog-adoption-website/static/js/787.fe60e91e.chunk.js",
+    "static/media/hazel.jpg": "/react-dog-adoption-website/static/media/hazel.56f12732a1234fceb49b.jpg",
+    "static/media/whiskey.jpg": "/react-dog-adoption-website/static/media/whiskey.7650f3f2b68e4bebacaa.jpg",
+    "static/media/tubby.jpg": "/react-dog-adoption-website/static/media/tubby.9c06bf82b050f49b0a43.jpg",
+    "index.html": "/react-dog-adoption-website/index.html",
+    "main.aa3accbe.css.map": "/react-dog-adoption-website/static/css/main.aa3accbe.css.map",
+    "main.6ff1e20d.js.map": "/react-dog-adoption-website/static/js/main.6ff1e20d.js.map",
+    "787.fe60e91e.chunk.js.map": "/react-dog-adoption-website/static/js/787.fe60e91e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa3accbe.css",
+    "static/js/main.6ff1e20d.js"
+  ]
+}
